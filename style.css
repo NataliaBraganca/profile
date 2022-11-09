@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #ef9273;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  color: #0d0d0d;
+  font-family: "Varela";
+  line-height: 1.6;
+  font-size: 30px;
+
+}
+
+a {
+  color: #ef9273;
+  text-decoration: none ;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+ .container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card{
+  background: #fef9f8;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  text-align: center;
+  width: 500px;
+  margin: 15px;
+  box-shadow: 5px 5px;
+
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
